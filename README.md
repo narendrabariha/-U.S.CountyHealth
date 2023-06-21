@@ -1,1 +1,17 @@
 "# -U.S.CountyHealth" 
+git clone https://github.com/narendrabariha/-U.S.CountyHealth.git
+
+cd -U.S.CountyHealth
+
+echo "# -U.S.CountyHealth" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/narendrabariha/-U.S.CountyHealth.git
+git push -u origin main
+
+
+git add .
+git commit -m "I have added new file"
+git push -u origin main
